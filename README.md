@@ -4,3 +4,8 @@
 3. Make a director at ~/./config/ named nvim (`mkdir ~/./config/nvim`)
 4. Create a file named init.vim there (`touch init.vim`)
 5. Put the "init.vim" from this repertory there
+
+"""Vimplugin instalation manual
+1. Join at https://github.com/junegunn/vim-plug?tab=readme-ov-file#neovim
+2. Join with the nvim at the init.vim and run `:PlugInstall`
+3. Close the nvim and join again
