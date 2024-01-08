@@ -45,15 +45,16 @@ filetype indent on   " Load the indent file for the file type, if any
 
 
 "Remaps"""""""""""""""""""""""""""""""""""""""""""""""
-nmap <C-q> :q!<CR>
-nmap <C-s> :w<CR>
-nmap <C-x> :wq<CR>
+nmap <C-h> :q!<CR>
+nmap <C-i> :w<CR>
+nmap <C-j> :wq<CR>
 nmap ; :
 nmap q :q<CR>
 
 
-
-
+"NerdTree
+nmap <C-k><C-b> :NERDTreeToggle<CR>
+nmap <C-n> :NERDTreeFocus<CR>
 
 
 "Plugins"""""""""""""""""""""""""""""""""""""""""""""""
@@ -61,6 +62,7 @@ call plug#begin()
     Plug 'getomni/neovim', { 'branch': 'main' }
     Plug 'sheerun/vim-polyglot'
     Plug 'windwp/nvim-autopairs'
+    Plug 'preservim/nerdtree'
 call plug#end()
 
 
@@ -76,7 +78,8 @@ colorscheme omni
 
 
 
-"Extension"""""""""""""""""""""""""""""""""""""""""""""""
+"Extension/configs"""""""""""""""""""""""""""""""""""""""""""""""
+"AutoPairs
 lua << EOF
 require("nvim-autopairs").setup {}
 EOF
