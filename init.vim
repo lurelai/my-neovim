@@ -45,9 +45,9 @@ filetype indent on   " Load the indent file for the file type, if any
 
 
 "Remaps"""""""""""""""""""""""""""""""""""""""""""""""
-nmap <C-h> :q!<CR>
-nmap <C-i> :w<CR>
-nmap <C-j> :wq<CR>
+nmap <C-q> :q!<CR>
+nmap <C-s> :w<CR>
+nmap <C-h> :wq<CR>
 nmap ; :
 nmap q :q<CR>
 
@@ -63,6 +63,7 @@ call plug#begin()
     Plug 'sheerun/vim-polyglot'
     Plug 'windwp/nvim-autopairs'
     Plug 'preservim/nerdtree'
+    Plug 'mattn/emmet-vim'
 call plug#end()
 
 
