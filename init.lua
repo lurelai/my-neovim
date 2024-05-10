@@ -1,5 +1,5 @@
 vim.g.mapleader = ","
 
-require("default-options")()
-require("default-remaps")()
+require("options/default-options")()
+require("remaps/default-remaps")()
 
