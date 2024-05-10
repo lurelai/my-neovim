@@ -1,4 +1,2 @@
-local PATH = require("./modules/PATH")
-
-require("./modules/options")()
+require("options")()
 
