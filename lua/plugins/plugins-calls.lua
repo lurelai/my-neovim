@@ -12,5 +12,8 @@ return function()
 			dotfiles = false
 		}
 	}
+
+	-- fzf-lua
+	require("fzf-lua").setup {}
 end
 
