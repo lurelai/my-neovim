@@ -1,5 +1,8 @@
 return function()
-	-- Who don't want that your pairs completing automatically?
+	-- plugins conffig
+	require("plugins/plugins-settings")()
+
+	-- nvim-autopairs
 	require("nvim-autopairs").setup {} 
 end
 
