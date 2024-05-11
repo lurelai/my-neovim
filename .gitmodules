@@ -7,3 +7,6 @@
 [submodule "plugins/pack/vendor/start/lightline.vim"]
 	path = plugins/pack/vendor/start/lightline.vim
 	url = https://github.com/itchyny/lightline.vim
+[submodule "plugins/pack/vendor/start/nvim-tree.lua"]
+	path = plugins/pack/vendor/start/nvim-tree.lua
+	url = https://github.com/nvim-tree/nvim-tree.lua

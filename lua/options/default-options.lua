@@ -23,5 +23,10 @@ return function()
 
 	vim.opt.autoread				= true				-- Show changes at the file on the real time
 	vim.opt.mouse					= "a"
+
+	vim.opt.showmode 				= false				-- Remove the "--insert--" on the bottom of the window (better with lightline plugin)
+
+	-- Plugins options
+	require("options/plugins-options")
 end
 
