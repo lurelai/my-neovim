@@ -13,12 +13,6 @@
 [submodule "plugins/pack/vendor/start/fzf-lua"]
 	path = plugins/pack/vendor/start/fzf-lua
 	url = https://github.com/ibhagwan/fzf-lua
-[submodule "plugins/pack/themes/start/oxocarbon.nvim"]
-	path = plugins/pack/themes/start/oxocarbon.nvim
-	url = https://github.com/nyoom-engineering/oxocarbon.nvim
-[submodule "plugins/pack/themes/start/spacegray.vim"]
-	path = plugins/pack/themes/start/spacegray.vim
-	url = https://github.com/vim-scripts/Spacegray.vim
 [submodule "plugins/pack/themes/start/onedark.nvim"]
 	path = plugins/pack/themes/start/onedark.nvim
 	url = https://github.com/navarasu/onedark.nvim
