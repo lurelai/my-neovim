@@ -22,6 +22,6 @@
 [submodule "plugins/pack/vendor/start/emmet-vim"]
 	path = plugins/pack/vendor/start/emmet-vim
 	url = https://github.com/mattn/emmet-vim
-[submodule "plugins/pack/vendor/start/nvim-treesitter"]
-	path = plugins/pack/vendor/start/nvim-treesitter
-	url = https://github.com/nvim-treesitter/nvim-treesitter
+[submodule "plugins/pack/vendor/start/polyglot"]
+	path = plugins/pack/vendor/start/polyglot
+	url = https://github.com/sheerun/vim-polyglot

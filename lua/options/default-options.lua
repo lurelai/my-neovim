@@ -24,9 +24,10 @@ return function()
 	vim.opt.autoread				= true				-- Show changes at the file on the real time
 	vim.opt.mouse					= "a"
 
+	vim.opt.compatible				= false				-- nothing
 
-	vim.opt.list					= true
-	vim.opt.listchars				= {
+	vim.opt.list					= true 				-- Set cool tabs shows
+	vim.opt.listchars				= {					-- Set cool tabs shows
 		tab			= "  ┊",
 		trail		= "●",
 		space		= "·",

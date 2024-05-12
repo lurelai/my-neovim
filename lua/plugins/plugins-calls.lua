@@ -21,10 +21,5 @@ return function()
 	-- tokyodark
 	require("tokyodark").setup {}
 	vim.cmd "colorscheme tokyodark"
-
-
-	-- nvim-treesitter
-	require("nvim-treesitter.configs").setup {
-	}
 end
 

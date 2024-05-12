@@ -16,5 +16,9 @@ return function()
 	vim.g.user_emmet_mode = "in"
 	vim.g.user_emmet_leader_key = "<C-p>"
 	vim.cmd("autocmd FileType html,css EmmetInstall")
+
+
+	-- polyglot
+	vim.g.polyglot_disable = { 'markdown' }
 end
 
