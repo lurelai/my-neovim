@@ -19,3 +19,6 @@
 [submodule "plugins/pack/themes/start/tokyodark.nvim"]
 	path = plugins/pack/themes/start/tokyodark.nvim
 	url = https://github.com/tiagovla/tokyodark.nvim
+[submodule "plugins/pack/vendor/start/emmet-vim"]
+	path = plugins/pack/vendor/start/emmet-vim
+	url = https://github.com/mattn/emmet-vim
