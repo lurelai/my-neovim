@@ -24,6 +24,15 @@ return function()
 	vim.opt.autoread				= true				-- Show changes at the file on the real time
 	vim.opt.mouse					= "a"
 
+
+	vim.opt.list					= true
+	vim.opt.listchars				= {
+		tab			= "  ┊",
+		trail		= "●",
+		space		= "·",
+	}
+
+
 	vim.opt.showmode 				= false				-- Remove the "--insert--" on the bottom of the window (better with lightline plugin)
 
 	-- Plugins options
