@@ -16,3 +16,6 @@
 [submodule "plugins/pack/themes/start/onedark.nvim"]
 	path = plugins/pack/themes/start/onedark.nvim
 	url = https://github.com/navarasu/onedark.nvim
+[submodule "plugins/pack/themes/start/tokyodark.nvim"]
+	path = plugins/pack/themes/start/tokyodark.nvim
+	url = https://github.com/tiagovla/tokyodark.nvim

@@ -23,6 +23,13 @@ Light line for the better view of the current mode and other things
 The tree that i am using. (I tried others trees, but, that one is the better)
 
 
-### onedark theme
+### onedark theme (subbs: tokyonight)
 #### 2024-MAY-11
 The unique theme that is good in my potato
+
+
+### tokyonight
+#### 2024-MAY-11
+I will try it for a few
+
+

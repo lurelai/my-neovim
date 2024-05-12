@@ -18,10 +18,8 @@ return function()
 	require("fzf-lua").setup {}
 
 
-	-- onedark
-	require("onedark").setup {
-		style = "darker"
-	}
-	require("onedark").load()
+	-- tokyodark
+	require("tokyodark").setup {}
+	vim.cmd "colorscheme tokyodark"
 end
 
