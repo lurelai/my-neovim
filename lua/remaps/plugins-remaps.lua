@@ -4,6 +4,6 @@ return function()
 
 
 	-- fzf-lua remaps
-	vim.keymap.set('n', '<leader>p', ':FzfLua files<CR>')
+	vim.keymap.set('n', '<leader>p', ':FzfLua git_files<CR>')
 end
 

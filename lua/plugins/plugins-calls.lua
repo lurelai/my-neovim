@@ -13,7 +13,15 @@ return function()
 		}
 	}
 
+
 	-- fzf-lua
 	require("fzf-lua").setup {}
+
+
+	-- onedark
+	require("onedark").setup {
+		style = "darker"
+	}
+	require("onedark").load()
 end
 
