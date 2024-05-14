@@ -21,5 +21,10 @@ return function()
 	-- tokyodark
 	require("tokyodark").setup {}
 	vim.cmd "colorscheme tokyodark"
+
+	-- onedark
+	require("onedark").setup {
+		style = "cool"
+	}
 end
 
