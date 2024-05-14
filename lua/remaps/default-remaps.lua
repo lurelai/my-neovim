@@ -5,18 +5,7 @@ return function()
 
 	vim.keymap.set('i', '<C-q>', '<ESC>:q<CR>')		-- easy way to quit in the insert mode
 	vim.keymap.set('i', '<C-s>', '<ESC>:w<CR>a')	-- easy way to save in the insert mode
-
 	vim.keymap.set('n', '<leader>l', ":set invlist<cr>") -- Toggle the "set list"
-	vim.keymap.set('n', '<leader>t', function ()
-		currentTheme = vim.g.colors_name
-
-		if(currentTheme == "onedark") then
-			vim.cmd("colorscheme tokyodark")
-
-		elseif (currentTheme == "tokyodark") then
-			vim.cmd("colorscheme onedark")
-		end
-	end)
 
 	-- plugins remaps
 	require("remaps/plugins-remaps")()
