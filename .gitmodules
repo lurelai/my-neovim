@@ -25,3 +25,6 @@
 [submodule "plugins/pack/vendor/start/polyglot"]
 	path = plugins/pack/vendor/start/polyglot
 	url = https://github.com/sheerun/vim-polyglot
+[submodule "plugins/pack/vendor/start/nvim-web-devicons"]
+	path = plugins/pack/vendor/start/nvim-web-devicons
+	url = https://github.com/nvim-tree/nvim-web-devicons
