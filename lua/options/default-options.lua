@@ -26,6 +26,8 @@ return function()
 
 	vim.opt.compatible				= false				-- nothing
 
+	vim.opt.cursorline 				= true
+
 	vim.opt.list					= false 			-- Set cool tabs shows
 	vim.opt.listchars				= {					-- Set cool tabs shows
 		tab			= "  ┊",
