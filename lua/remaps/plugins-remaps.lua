@@ -19,6 +19,8 @@ return function()
 		else 
 			vim.cmd("colorscheme onedark")
 		end
+
+		vim.cmd("syntax on")
 	end)
 end
 
