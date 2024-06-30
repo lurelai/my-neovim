@@ -4,6 +4,8 @@ return function()
 	vim.opt.tabstop 				= 4					-- Set the tabstop as 4 (default tab of files)
 	vim.opt.shiftwidth				= 4					-- Set the default tab as 4 (the tab typed)
 
+	vim.opt.scrolloff				= 40				-- make the cursor stay always at the center of the screen
+
 	vim.opt.guicursor				= "n-v-c-i:block"	-- Set the insert-cursor as block
 	vim.opt.hidden 					= true				-- Hide the current buffer when a new file is created
 
@@ -41,4 +43,5 @@ return function()
 	-- Plugins options
 	require("options/plugins-options")
 end
+
 
