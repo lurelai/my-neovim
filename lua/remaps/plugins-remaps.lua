@@ -1,7 +1,6 @@
 return function()
 	-- Nvim remaps
-	vim.keymap.set('n', '<leader>da', ':NvimTreeToggle<CR>')	
-
+	vim.keymap.set('n', '<leader>da', ':NvimTreeToggle<CR>')
 
 	-- fzf-lua remaps
 	vim.keymap.set('n', '<leader>p', ':FzfLua git_files<CR>')
@@ -22,5 +21,31 @@ return function()
 
 		vim.cmd("syntax on")
 	end)
+
+
+	-- cosco
+	vim.keymap.set('n', '<leader>o', ':CommaOrSemiColon<cr>')
+	vim.keymap.set('n', '<leader><F9>', ':AutoCommaOrSemiColonToggle<cr>')
+	vim.keymap.set('n', '<leader>,', '@:')
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
